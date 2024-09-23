@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <div id="card">
+        <h2>Cadastrar</h2>
+        <input type="text" id="//USER">
+        <input type="password" id="senha">
+        <button onclick="//testar()">Entrar</button>
+        <div id="tela"></div>
+    </div>
+</body>
+<footer>
+    <Script>
+        let senha = "244466666", user="Eu mesmo", senha1="", user1="";
+        function checar(){
+            senha1 = document.getElementById("senha").value;
+            user1 = document.getElementById("user").value;
+            if(senha!=senha1){
+                document.getElementById("tela").innerHTML+="Senha errada";
+            }
+            if(user!=user1){
+                document.getElementById("tela").innerHTML+="Úsuário errado <br>";
+            }
+            if(user1==user&&senha1==senha){
+                document.getElementById("tela").innerHTML+="Login efetuado com sucesso";  
+            }
+        }
+    </Script>
+</footer>
+</html>

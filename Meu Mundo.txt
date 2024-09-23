@@ -1,0 +1,17 @@
+<html lang="pt-br"><head>
+   <title> Meu primeiro site</title>
+   <style type="text/css">     
+    body{
+         background-color: cyan;
+         }
+   </style>
+  </head>
+  <body>
+    <h1> Meu primeiro site</h1>
+    <h3>Kaiky Alves Domiense</h3>
+    <p>Olá esse é o meu primeiro site, meu nome é Kaiky e esse é o primeiro site que estou desenvolvendo no curso de front end.
+    </p>
+  
+  <foot>
+  </foot>
+</body></html>

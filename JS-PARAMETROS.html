@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-parametros</title>
+</head>
+<body>
+    <h1>JS parametros</h1>
+    <button onclick="calcula(1,1)"> 1+1 </button>
+    <button onclick="calcula(2,2)"> 2+2 </button>
+    <button onclick="calcula(3,3)"> 3+3 </button>
+    <button onclick="calcula(4,4)"> 4+4 </button>
+    <button onclick="comparaNome('kaiky','cristiano ronaldo')"> compara nome </button>
+</body>
+<script>
+    let x=0, y=0, nome1="", nome2="";
+    function calcula(x,y){
+        alert(x+y);
+    }
+
+    function comparaNome(nome1,nome2){
+        document.writeln("Primeiro nome  "+nome1+"<br>");
+        document.writeln("Segundo nome "+nome2+"<br>");
+        document.writeln("O nome "+nome1+"  tem "+nome1.length+" caracteres. <br>");
+        document.writeln("O nome "+nome2+" tem "+nome2.length+" caracteres. <br>");
+        if(nome1.length>nome2.length){
+            document.writeln(nome1+" È maior");
+        }else{
+            document.writeln(nome2+" È maior");
+        }
+    }
+</script>
+</html>
